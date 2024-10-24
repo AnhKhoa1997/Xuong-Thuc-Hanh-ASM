@@ -1,0 +1,40 @@
+{
+    "services": [
+      {
+        "id": 1,
+        "name": "Dịch Vụ Phòng",
+        "description": "Chúng tôi cung cấp các dịch vụ phòng tiện nghi và thoải mái.",
+        "image": "images/5.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Dịch Vụ Ăn Uống",
+        "description": "Thưởng thức ẩm thực địa phương ngon miệng tại nhà hàng của chúng tôi.",
+        "image": "images/thucan.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Dịch Vụ Giải Trí",
+        "description": "Thư giãn với các hoạt động giải trí thú vị mà chúng tôi cung cấp.",
+        "image": "images/giaitri.jpg"
+      },
+      {
+        "id": 4,
+        "name": "Dịch Vụ Thuê Xe",
+        "description": "Thuê xe máy, xe hơi với giá hợp lý. Liên hệ thu ngân để biết thêm chi tiết.",
+        "image": "images/thuexe.jpg"
+      },
+      {
+        "id": 5,
+        "name": "Dịch Vụ Đặt Vé Xe, Máy Bay, Tàu Lửa",
+        "description": "Đặt mua vé tàu, vé xe, vé máy bay nhanh chóng và được hưởng nhiều ưu đãi.",
+        "image": "images/datve.jpg"
+      },
+      {
+        "id": 6,
+        "name": "Dịch Vụ Giặt Ủi",
+        "description": "Giặt ủi quần áo, sắp xếp gọn gàng và giao lại tận phòng cho khách.",
+        "image": "images/giatui.jpg"
+      }
+    ]
+  }
