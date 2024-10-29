@@ -160,6 +160,7 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 15px;
+    z-index: 1000;
 }
 .icon {
     width: 50px;
