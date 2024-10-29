@@ -152,3 +152,66 @@ footer {
     transform: translateY(-5px);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
+.floating-icons {
+    position: fixed;
+    left: 20px;
+    bottom: 2%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+.icon img {
+    width: 60%;
+    height: 60%;
+}
+.icon.red {
+    background-color: #f44336;
+}
+.icon.blue {
+    background-color: #2196f3;
+}
+.icon.white {
+    background-color: #FFFFFF;
+}
+.icon:hover {
+    transform: scale(1.1);
+}
+.scrollToTopBtn {
+    position: fixed; /* Fixes the button to the viewport */
+    bottom: 50px; /* Distance from the bottom */
+    right: 50px; /* Distance from the right */
+    padding: 10px; /* Space inside the button */
+    background-color: #007bff; /* Blue background */
+    color: white; /* White text color */
+    border: none; /* No border */
+    border-radius: 50%; /* Make it circular */
+    font-size: 24px; /* Size of the up arrow */
+    cursor: pointer; /* Pointer cursor on hover */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Shadow for depth */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transition effects */
+    display: none; /* Hidden by default */
+    z-index: 1000; /* Ensure it appears above other elements */
+    width: 65px; /* Set the width of the button */
+    height: 65px; /* Set the height of the button */
+}
+/* Hover effect */
+.scrollToTopBtn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transform: translateY(-2px); /* Slight lift effect */
+}
+/* Show button when needed */
+.scrollToTopBtn.show {
+    display: block; /* Show button when scrolled down */
+}
