@@ -206,12 +206,65 @@ footer {
     width: 65px; /* Set the width of the button */
     height: 65px; /* Set the height of the button */
 }
-/* Hover effect */
 .scrollToTopBtn:hover {
-    background-color: #0056b3; /* Darker blue on hover */
-    transform: translateY(-2px); /* Slight lift effect */
+    background-color: #0056b3; 
+    transform: translateY(-2px); 
 }
-/* Show button when needed */
 .scrollToTopBtn.show {
-    display: block; /* Show button when scrolled down */
+    display: block; 
 }
+footer {
+    background-color: #000000;
+    color: white;
+    padding: 20px;
+  }
+  
+  .footer-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid white;
+    padding-bottom: 20px;
+  }
+  
+  .footer-nav nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer-nav nav img {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+  }
+  
+  .footer-nav nav h1 {
+    color: rgb(2, 2, 2);
+    font-size: 24px;
+    margin: 0 15px 0 0;
+  }
+  
+  .footer-nav nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  .footer-nav nav ul li {
+    margin: 0 15px;
+  }
+  
+  .footer-nav nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+  }
+  
+  .footer-info {
+    text-align: center;
+    padding-top: 20px;
+  }
+  
+  .footer-info p {
+    margin: 5px 0;
+  }
